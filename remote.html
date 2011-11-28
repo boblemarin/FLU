@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name='HandheldFriendly' content='True' />
+		<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+    	<title>FLU-Remote</title>
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="apple-touch-icon-precomposed" href="img/telco.jpg" />
+    
+		<link type="text/css" rel="stylesheet" href="styles/remote.css">
+    	<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="js/remote.js"></script>
+	</head>
+	
+	<body onload="init();">
+		<div id="mode1" class="modeBtn">1</div>
+		<div id="mode2" class="modeBtn">2</div>
+		<div id="mode3" class="modeBtn">3</div>
+		<div id="mode4" class="modeBtn">4</div>
+		<div id="color" class="setBtn">Color</div>
+		<div id="infos" class="setBtn">Message</div>
+	</body>
+</html>

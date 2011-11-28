@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name='HandheldFriendly' content='True' />
+		<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' />
+    	<title>FLU</title>
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="apple-touch-icon-precomposed" href="img/icon.jpg" />
+    
+		<link type="text/css" rel="stylesheet" href="styles/controller.css">
+    	<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="js/RequestAnimationFrame.js"></script>
+		<script type="text/javascript" src="js/Controller.js"></script>
+	</head>
+	
+	<body onload="init();">
+
+		<div id="splashContainer">
+			<div id="splash" class="hidden">
+				<img id="splashLogo" src="img/splash_logo.png" width="100%" />
+				<div id="splashStatus">
+					<img id="splashConnecting" src="img/splash_connecting.png" width="100%" />
+					<img id="splashConnected" src="img/splash_connected.png" width="100%" />
+				</div>
+			</div>
+		</div>
+		
+		<div id="pointer">
+			<img src="img/circle.png" />
+		</div>
+		
+		<a id="infoBtn"></a>
+		<div id="infos">
+			<span>concept+code:</span>
+			<span><a href="http://twitter.com/boblemarin/" target="_blank">@boblemarin</a> / <a href="http://www.minimal.be/" target="_blank">minimal.be</a></span>
+			<br>
+			<a href="http://www.paperduck.be/" target="_blank"><span>design+support:</span>
+			<span>paperduck.be</span></a>
+		</div>
+	</body>
+</html>

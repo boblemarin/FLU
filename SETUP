@@ -1,0 +1,8 @@
+Setup :
+
+- install the node.js server and the socket.io module
+- launch FLU.js
+- open one instance of master.html (visualisation)
+- interact with the visualisation with controller.html
+- you can remotely control the master with remote.html
+
