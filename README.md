@@ -5,7 +5,7 @@ FLU is an multi-user interactive installation, where the spectators' mobile devi
 
 It relies on open web technologies, namely HTML5, Javascript, [Node.js][nodejs], [Socket.IO][socketio], [WebGL][] and does not need to be connected to the internet.
 
-You can find some more informations on [FLU's homepage][home]
+You can find some more informations on [FLU's CheckThis page][home]
 
 
 Contributors
@@ -27,4 +27,4 @@ License
 [nodejs]: http://nodejs.org/
 [socketio]: http://socket.io/
 [WebGL]: http://www.khronos.org/webgl/
-[home]: http://flu.minimal/be
+[home]: http://checkthis.com/7ezv
